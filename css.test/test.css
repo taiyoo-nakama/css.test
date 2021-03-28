@@ -1,0 +1,40 @@
+body{
+  width: 80%;
+  height: 500px;
+}
+header{
+  display: flex;
+  color: #005599;
+}
+.parent{
+  font-size: 20px;
+  font-weight: bold;
+  flex-direction: row;
+}
+.child{
+  font-size: 16px;
+  padding: 10px 20px;
+  flex-direction: row;
+  justify-content: flex-end;
+  float: right;
+}
+h1{
+  top: 60%;
+  float: left;
+
+}
+.img{
+  background: url(../img/firstview.jpeg);
+  background-size: cover;
+  height: 300px;
+  width: 45%;
+  float: right;
+  position: relative;
+}
+.box{
+  height: 100px;
+  width: 600px;
+  background-color: #033399;
+  position: absolute;
+  top: 30%;
+}
