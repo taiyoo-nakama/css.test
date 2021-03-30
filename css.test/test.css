@@ -1,40 +1,49 @@
-body{
+div {
   width: 80%;
-  height: 500px;
+  height: 300px;
+  
 }
-header{
+header {
   display: flex;
   color: #005599;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
-.parent{
+.parent {
   font-size: 20px;
   font-weight: bold;
   flex-direction: row;
+
 }
-.child{
+.child {
   font-size: 16px;
   padding: 10px 20px;
   flex-direction: row;
   justify-content: flex-end;
   float: right;
 }
-h1{
+.title {
   top: 60%;
-  float: left;
-
+  font-weight: normal;
 }
-.img{
+.img {
   background: url(../img/firstview.jpeg);
   background-size: cover;
   height: 300px;
-  width: 45%;
+  width: 50%;
   float: right;
   position: relative;
+  z-index: 10;
 }
-.box{
-  height: 100px;
-  width: 600px;
-  background-color: #033399;
+.box-wrap{
   position: absolute;
-  top: 30%;
+  top: 35%;
+}
+.box {
+  height: 80px;
+  width: 500px;
+  background-color: #033399;
+  z-index: 0;
+  position: relative;
+  top: -30px;
 }
