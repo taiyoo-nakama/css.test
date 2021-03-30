@@ -7,7 +7,6 @@ header {
   display: flex;
   color: #005599;
   justify-content: space-between;
-  margin-bottom: 50px;
 }
 .parent {
   font-size: 20px;
@@ -23,7 +22,7 @@ header {
   float: right;
 }
 .title {
-  top: 60%;
+  top: 50%;
   font-weight: normal;
 }
 .img {
@@ -37,10 +36,10 @@ header {
 }
 .box-wrap{
   position: absolute;
-  top: 35%;
+  top: 25%;
 }
 .box {
-  height: 80px;
+  height: 100px;
   width: 500px;
   background-color: #033399;
   z-index: 0;
